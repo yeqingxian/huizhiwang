@@ -1,0 +1,16 @@
+server:
+  port: ${PORT:18081}
+spring:
+  application:
+    name: eureka-server
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_SERVER:http://eureka02:18082/eureka/}
+    register-with-eureka: true
+    fetch-registry: true
+  server:
+    eviction-interval-timer-in-ms: 60000
+    enable-self-preservation: false
+  instance:
+    hostname: ${EUREKA_DOMAIN:eureka01}
