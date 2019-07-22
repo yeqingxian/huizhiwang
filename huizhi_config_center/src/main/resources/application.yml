@@ -1,0 +1,16 @@
+
+server:
+  port: 9090
+spring:
+  application:
+    name: config-center
+  cloud:
+    config:
+      server:
+        git:
+          search-paths: config-center
+          uri: https://github.com/justgoYML.git
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka01:18081/eureka/

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/huizhi_config_center/huizhi_config_center.iml" filepath="$PROJECT_DIR$/huizhi_config_center/huizhi_config_center.iml" />
       <module fileurl="file://$PROJECT_DIR$/huizhi_eureka_server/huizhi_eureka_server.iml" filepath="$PROJECT_DIR$/huizhi_eureka_server/huizhi_eureka_server.iml" />
+      <module fileurl="file://D:\IdeaProjects\huizhiwang\huizhi_eureka_server\huizhi_eureka_server.iml" filepath="D:\IdeaProjects\huizhiwang\huizhi_eureka_server\huizhi_eureka_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/huizhiwang.iml" filepath="$PROJECT_DIR$/huizhiwang.iml" />
     </modules>
   </component>
