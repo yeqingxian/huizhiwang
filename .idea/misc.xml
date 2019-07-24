@@ -11,6 +11,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/huizhi_eureka_server/pom.xml" />
+        <option value="$PROJECT_DIR$/huizhi_manage_client_18101/pom.xml" />
+        <option value="$PROJECT_DIR$/huizhi_nanage_feign_18201/pom.xml" />
       </list>
     </option>
   </component>

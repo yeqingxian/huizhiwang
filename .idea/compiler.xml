@@ -7,10 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="huizhi_eureka_server" />
+        <module name="huizhi_manage_client_18101" />
+        <module name="huizhi_nanage_feign_18201" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="huizhi_eureka_server" target="1.8" />
+      <module name="huizhi_manage_client_18101" target="1.8" />
+      <module name="huizhi_nanage_feign_18201" target="1.8" />
       <module name="huizhiwang" target="1.5" />
     </bytecodeTargetLevel>
   </component>
