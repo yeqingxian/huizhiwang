@@ -29,7 +29,47 @@
 		</div>
 
 		<div class="weadmin-body">
-			<div class="layui-row">
+			<div class="z-body animated fadeIn">
+				<form class="layui-form zadmin-search-area input">
+					<div class="layui-form-item">
+						<div class="layui-inline">
+							<label for="username" class="layui-form-label">用户名</label>
+							<div class="layui-input-inline">
+								<input type="text" name="username" autocomplete="off"
+									   id="username" class="layui-input">
+							</div>
+
+							<label for="email" class="layui-form-label">邮箱</label>
+							<div class="layui-input-inline">
+								<input type="text" name="email" autocomplete="off"
+									   id="email" class="layui-input">
+							</div>
+
+							<label for="deptTree" class="layui-form-label">部门</label>
+							<div class="layui-input-inline">
+								<ul id="deptTree" class="dtree" data-id="0" data-value="请选择"></ul>
+								<input type="hidden" id="deptId" name="deptId">
+							</div>
+
+							<label for="status" class="layui-form-label">状态</label>
+							<div class="layui-input-inline">
+								<select name="status" id="status">
+									<option value="">请选择</option>
+									<option value="1">正常</option>
+									<option value="0">锁定</option>
+								</select>
+							</div>
+
+							<button lay-submit="" lay-filter="search" class="layui-btn layui-btn-sm layui-btn-primary table-action">
+								<i class="zadmin-icon zadmin-icon-search"></i>
+							</button>
+						</div>
+					</div>
+				</form>
+
+				<table class="layui-hide" id="user-table"></table>
+			</div>
+			<!--<div class="layui-row">
 				<form class="layui-form layui-col-md12 we-search">
 					会员搜索：
 					<div class="layui-inline">
@@ -45,7 +85,7 @@
 						<i class="layui-icon layui-icon-search"></i>
 					</button>
 				</form>
-			</div>
+			</div>-->
 			<div class="weadmin-block">
 				<button class="layui-btn layui-btn-danger" onclick="delAll()">
 					<i class="layui-icon layui-icon-delete"></i>批量删除
@@ -53,7 +93,7 @@
 				<button class="layui-btn" onclick="WeAdminShow('添加用户','./add.html',600,400)">
 					<i class="layui-icon layui-icon-add-circle-fine"></i>添加
 				</button>
-				<span class="fr" style="line-height:40px">共有数据：88 条</span>
+				<span class="fr" style="line-height:40px"></span>
 			</div>
 			<table class="layui-table" id="memberList">
 				<thead>

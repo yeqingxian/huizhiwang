@@ -25,7 +25,7 @@ layui.use(['laydate', 'jquery', 'admin'], function() {
 	});
 	/*用户-停用*/
 	window.member_stop = function (obj, id) {
-		layer.confirm('确认要停用吗？', function(index) {
+		layer.confirm('请确认执行？', function(index) {
 			if($(obj).attr('title') == '启用') {
 
 				//发异步把用户状态进行更改
