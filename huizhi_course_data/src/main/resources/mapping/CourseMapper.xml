@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.j1902.mapper.CourseMapper">
+    <resultMap id="courseMenu" type="com.qf.j1902.pojo.Menu">
+        <result property="keyword" column="key_word"/>
+        <result property="typeName" column="type_name"/>
+    </resultMap>
+    <select id="getCourseMenu" resultMap="courseMenu">
+       SELECT t.type_name,k.key_word FROM tb_type t ,tb_keyword k
+       WHERE t.type_id=k.type_id
+    </select>
+</mapper>
