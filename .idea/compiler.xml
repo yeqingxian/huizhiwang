@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="huizhi_config_center" />
+        <module name="huizhi_course_provider_19101" />
         <module name="huizhi_eureka_server" />
         <module name="huizhi_fastdfs_client" />
         <module name="huizhi_manage_client_18101" />
@@ -16,6 +17,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="huizhi_config_center" target="1.8" />
+      <module name="huizhi_course_provider_19101" target="1.8" />
       <module name="huizhi_eureka_server" target="1.8" />
       <module name="huizhi_fastdfs_client" target="1.8" />
       <module name="huizhi_manage_client_18101" target="1.8" />

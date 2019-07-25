@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/huizhi_config_center/huizhi_config_center.iml" filepath="$PROJECT_DIR$/huizhi_config_center/huizhi_config_center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/huizhi_course_provider_19101/huizhi_course_provider_19101.iml" filepath="$PROJECT_DIR$/huizhi_course_provider_19101/huizhi_course_provider_19101.iml" />
       <module fileurl="file://$PROJECT_DIR$/huizhi_eureka_server/huizhi_eureka_server.iml" filepath="$PROJECT_DIR$/huizhi_eureka_server/huizhi_eureka_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/huizhi_fastdfs_client/huizhi_fastdfs_client.iml" filepath="$PROJECT_DIR$/huizhi_fastdfs_client/huizhi_fastdfs_client.iml" />
+      <module fileurl="file://F:\IdeaProjects\huizhiwang\huizhi_fastdfs_client\huizhi_fastdfs_client.iml" filepath="F:\IdeaProjects\huizhiwang\huizhi_fastdfs_client\huizhi_fastdfs_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/huizhi_manage_client_18101/huizhi_manage_client_18101.iml" filepath="$PROJECT_DIR$/huizhi_manage_client_18101/huizhi_manage_client_18101.iml" />
       <module fileurl="file://$PROJECT_DIR$/huizhi_model/huizhi_model.iml" filepath="$PROJECT_DIR$/huizhi_model/huizhi_model.iml" />
       <module fileurl="file://$PROJECT_DIR$/huizhi_nanage_feign_18201/huizhi_nanage_feign_18201.iml" filepath="$PROJECT_DIR$/huizhi_nanage_feign_18201/huizhi_nanage_feign_18201.iml" />
