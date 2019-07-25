@@ -2,7 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/huizhi_config_center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/huizhi_course_provider_19101" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/huizhi_eureka_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/huizhi_fastdfs_client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/huizhi_manage_client_18101" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/huizhi_nanage_feign_18201" charset="UTF-8" />
   </component>

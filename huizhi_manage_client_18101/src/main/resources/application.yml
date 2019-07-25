@@ -1,1 +1,15 @@
 
+server:
+  port: 18101
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/huizhiwang?characterEcoding=utf-8&serverTimezone=UTC
+    username: root
+    password:
+  application:
+    name: manage-client
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: com.edu.huizhi.pojo
