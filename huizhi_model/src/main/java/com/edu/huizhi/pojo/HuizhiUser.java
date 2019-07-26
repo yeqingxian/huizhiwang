@@ -3,12 +3,14 @@ package com.edu.huizhi.pojo;
 import java.io.Serializable;
 import java.util.Date;
 
-public class HuizhiUser implements Serializable{
+public class HuizhiUser implements Serializable {
     private Integer id;
 
     private String username;
 
     private String password;
+
+    private String email;
 
     private Integer phone;
 
@@ -19,6 +21,8 @@ public class HuizhiUser implements Serializable{
     private Integer age;
 
     private String address;
+
+    private Integer type;
 
     private Date createTime;
 
@@ -50,6 +54,14 @@ public class HuizhiUser implements Serializable{
 
     public void setPassword(String password) {
         this.password = password == null ? null : password.trim();
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email == null ? null : email.trim();
     }
 
     public Integer getPhone() {
@@ -90,6 +102,14 @@ public class HuizhiUser implements Serializable{
 
     public void setAddress(String address) {
         this.address = address == null ? null : address.trim();
+    }
+
+    public Integer getType() {
+        return type;
+    }
+
+    public void setType(Integer type) {
+        this.type = type;
     }
 
     public Date getCreateTime() {
