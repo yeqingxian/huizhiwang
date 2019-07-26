@@ -16,6 +16,9 @@
         <option value="$PROJECT_DIR$/huizhi_nanage_feign_18201/pom.xml" />
         <option value="$PROJECT_DIR$/huizhi_fastdfs_client/pom.xml" />
         <option value="$PROJECT_DIR$/huizhi_course_provider_19101/pom.xml" />
+        <option value="$PROJECT_DIR$/huizhi_course_data/pom.xml" />
+        <option value="$PROJECT_DIR$/huizhi_course_pages/pom.xml" />
+        <option value="$PROJECT_DIR$/huizhi_solr_search/pom.xml" />
       </list>
     </option>
   </component>
