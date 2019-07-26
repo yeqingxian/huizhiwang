@@ -13,3 +13,7 @@ spring:
 mybatis:
   mapper-locations: classpath:mapping/*.xml
   type-aliases-package: com.edu.huizhi.pojo
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka01:18081/eureka
