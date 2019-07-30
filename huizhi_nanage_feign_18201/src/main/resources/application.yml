@@ -3,8 +3,12 @@ server:
   port: 18201
 spring:
   application:
-    name: manage-feign
+    name: all-portal
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 1000MB
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka01:18081/eureka
+      defaultZone: http://localhost:18081/eureka

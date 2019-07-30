@@ -1,4 +1,4 @@
-package com.edu.huizhi.controller;
+package com.edu.huizhi.Controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 public class IndexController {
-   /* @RequestMapping("/")
+    @RequestMapping("/")
     public String index(){
         return "login.html";
-    }*/
+    }
     @RequestMapping("/{page}")
     public  String showPage(@PathVariable("page")String page){
         return page;
